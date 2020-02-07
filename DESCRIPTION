@@ -20,3 +20,5 @@ Exports: estML, ConSet, plotConSet, phypoexp2, qhypoexp2, dhypoexp2, predHypoexp
         getSupFigure1b, getSupFigure2a, getSupFigure2b, loadData, sampleStandQuants,
         getConBands, plotConBands, testExpDist
 RoxygenNote: 6.1.1
+URL: https://github.com/KLeckey/loadshare
+BugReports: https://github.com/KLeckey/loadshare/issues
