@@ -1,0 +1,22 @@
+Package: loadshare
+Type: Package
+Title: Prediction intervals for load sharing systems in accelerated life testing
+Version: 1.2
+Date: 2019-09-02
+Author: C.H. Müller, K. Leckey, S. Szugat, R. Maurer
+Maintainer: K. Leckey <kevin.leckey@tu-dortmund.de>
+Description: This package is an implementation of various prediction methods presented
+        in the article 'Prediction intervals for load sharing systems in 
+        accelerated life testing' by the package authors. 
+License: GPL (>= 2)
+Imports: Matrix, sdprisk
+Suggests: BatchJobs
+Encoding: UTF-8
+LazyData: true
+Exports: estML, ConSet, plotConSet, phypoexp2, qhypoexp2, dhypoexp2, predHypoexp,
+        predUnionConSet, pred_delta, q3depth, getCovRate, getIntLength, getScore,
+        predfail, normed3depth, getFigure1, getFigure2, getFigure3a, getFigure3b,
+        getFigure4a, getFigure4b, getFigure5a, getFigure5b, getTable1, getSupFigure1a,
+        getSupFigure1b, getSupFigure2a, getSupFigure2b, loadData, sampleStandQuants,
+        getConBands, plotConBands, testExpDist
+RoxygenNote: 6.1.1
